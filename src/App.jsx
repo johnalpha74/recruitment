@@ -1,9 +1,7 @@
 //import React from 'react';
 import './App.css';
-
 import { ThemeProvider } from "@/components/theme-provider"; // Ensure alias is configured correctly
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-
 import AppLayout from "./Layout/app-layout"; // Ensure the file is named correctly
 import LandingPage from './pages/LandingPage';
 import Onboarding from './pages/OnBoarding';
